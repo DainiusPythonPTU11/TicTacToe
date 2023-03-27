@@ -17,8 +17,8 @@ while not grid.isalpha():
         t = []
         t[:0] = grid
         is_winner = (t[0] == t[1] == t[2]) or (t[3] == t[4] == t[5]) or (t[6] == t[7] == t[8]) or (
-                t[0] == t[3] == t[6]) or (t[1] == t[4] == t[7]) or (t[2] == t[5] == t[8]) or (
-                            t[0] == t[4] == t[8]) or (t[2] == t[4] == t[6])
+                     t[0] == t[3] == t[6]) or (t[1] == t[4] == t[7]) or (t[2] == t[5] == t[8]) or (
+                     t[0] == t[4] == t[8]) or (t[2] == t[4] == t[6])
         if is_winner:
             break
     else:
